@@ -1,0 +1,58 @@
+@media (min-width:1100px) and (max-width:1450px) {
+
+
+
+ #formSection{
+  display: grid;
+  
+   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template: "pic  form "
+                  "pic results ";
+ }
+#form1{
+   margin: 62px 0px 0px 0px; 
+   padding: 42px;  
+   grid-area: form;  
+  
+}
+
+
+
+ #cityImage{
+   grid-area: pic;
+   height: 109vh;
+   width:800px;
+   
+ }
+ 
+ #resultsDescrition{  
+   grid-area: results;    
+    
+ }
+
+ }
+
+ @media (min-width:1451px){
+   #formSection{
+      display: grid;
+      
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template: "pic  form "
+                      "pic results ";
+     }
+    #form1{
+       margin: 62px 0px 0px 0px; 
+       padding: 100px;  
+       grid-area: form;        
+    }     
+    
+    
+     #cityImage{
+       grid-area: pic;
+       height: 109vh;
+       width:1150px;       
+     }
+   
+ }

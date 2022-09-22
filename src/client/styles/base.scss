@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;  
+    margin: 0px;
+    background-color:steelblue;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+}
+
+#formSection{    
+    margin-top:-60px;
+}
+
+
+#cityImage {   
+        
+        margin: 0px auto;        
+        height: 40vh;
+        max-width: 100%;
+        background-image: url(../images/travelImage.jpg);
+        background-color:rgb(45, 48, 48);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        
+    }
+
+    .title{
+       
+        text-align: center;
+        padding: 40px 20px;
+        color:rgb(45, 48, 48);
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    
+
+
