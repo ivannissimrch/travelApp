@@ -21,9 +21,7 @@
    //after click summit reset input values and set focus 
    document.getElementById('cityInput').value =  ''
    document.getElementById('cityInput').focus()
-
-   document.getElementById('dateInput').value = ''
-    
+   document.getElementById('dateInput').value = ''   
    
 }
 

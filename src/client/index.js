@@ -18,6 +18,7 @@ import './images/travelImage.jpg'
  lastDay.setDate(toDay.getDate() + 15)
  const startDate = toDay.toLocaleString('en-CA').split(",")[0]  
  const endDate = lastDay.toLocaleString('en-CA').split(",")[0] 
+
  document.getElementById('dateInput').min = startDate;
  document.getElementById('dateInput').max = endDate
 

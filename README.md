@@ -8,9 +8,10 @@
 ![Results](images/ResultsMobile.png)   
 
 ## How to run
-in the command line go inside the folder basicWorking and enter npm run start
+in the command line go inside the main folder basicWorking and enter npm run start
 
 ### List of Dependencies
+
 
 "dependencies": {
     "cors": "^2.8.5",
@@ -37,7 +38,8 @@ in the command line go inside the folder basicWorking and enter npm run start
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.3.6",
-    "webpack-dev-server": "^4.10.1"
+    "webpack-dev-server": "^4.10.1",
+    "workbox-webpack-plugin": "^6.5.4"
   }
 
   ### Created by Ivan Rebolledo

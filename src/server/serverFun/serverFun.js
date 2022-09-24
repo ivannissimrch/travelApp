@@ -37,11 +37,15 @@ async function getApiData (req, res) {
      const geoLatitude = geoData.geonames[0].lat        
      
      //get weather data    
-     const currentDate = new Date()
-     currentDate.setDate(currentDate.getDate())  
+     const currentDate = new Date() 
+    
+     const hours = currentDate.getHours()
+     const minutes = currentDate.getMinutes()
+     const seconds = currentDate.getMilliseconds()
+      
 
      const userTravelDate = new Date(travelDate)
-     userTravelDate.setHours(23, 50, 1)
+     userTravelDate.setHours(hours, minutes, seconds)
      console.log(currentDate)  
      console.log(userTravelDate)    
 
