@@ -11,6 +11,7 @@ import './styles/mediaquerry.scss'
 
 import './images/travelImage.jpg'
 
+
  //set min and max date allow to retrive weather data.
  const toDay = new Date()  
  toDay.setDate(toDay.getDate()) 

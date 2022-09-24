@@ -43,6 +43,9 @@ module.exports = {
             filename: "./index.html",
         }),        
         new MiniCssExtractPlugin(),        
-        new WorkboxPlugin.GenerateSW()
+        new WorkboxPlugin.GenerateSW({
+            clientsClaim: true,
+            skipWaiting: true,
+        })          
     ]
 }
