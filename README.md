@@ -11,12 +11,14 @@
 in the command line go inside the main folder basicWorking and enter npm run start
 
 ### List of Dependencies
-
+Node version used while installing dependencies 16
 
 "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "favicons": "^7.0.0",
+    "favicons-webpack-plugin": "^5.0.2",
     "jest-fetch-mock": "^3.0.3",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"

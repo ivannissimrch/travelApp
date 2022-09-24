@@ -4,16 +4,14 @@ const HtmlWebPackPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
 const TerserPlugin = require('terser-webpack-plugin')
-
-// const WorkboxPlugin = require('workbox-webpack-plugin')
+const WorkboxPlugin = require('workbox-webpack-plugin')
 
 module.exports = {
     devtool: "source-map",
     entry: './src/client/index.js',
     optimization: {
         minimizer: [new TerserPlugin({}), 
-            new CssMinimizerPlugin()]
-           // new OptimizeCSSAssetsPlugin({})],
+            new CssMinimizerPlugin()]          
         },
     mode: 'production',   
     output: {
@@ -45,6 +43,6 @@ module.exports = {
             filename: "./index.html",
         }),        
         new MiniCssExtractPlugin(),        
-        // new WorkboxPlugin.GenerateSW()
+        new WorkboxPlugin.GenerateSW()
     ]
 }
